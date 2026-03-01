@@ -10,6 +10,7 @@ def is_linear_equation() -> list[str]:
     Una lista con oraciones de la definición de
     ecuación lineal
     """
+
     linear_equation: list[str] = [
         'Ecuación lineal',
         'Es una ecuación con variables y coeficientes',
@@ -41,6 +42,7 @@ def determinant(a: float, b: float, c: float, d: float) -> float:
     
     Retorna:
     det (float): El valor del determinante de la matriz."""
+
     det: float = (a * d) - (b * c)
     return det
 
@@ -62,6 +64,7 @@ def solve_simple_linear_eq(a: float, b: float, c: float) -> dict:
                 geometric_interpretation. Solo en caso normal, se puede
                 acceder al valor de x.
     """
+    
     result: dict = {
         'a': a,
         'b': b,

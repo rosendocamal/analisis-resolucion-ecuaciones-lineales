@@ -6,6 +6,7 @@ def test_determinant() -> None:
     """
     Test para evaluar la función del determinante
     """
+
     result: float = determinant(5, 4, 2, 3)
 
     assert result == 7
@@ -35,7 +36,9 @@ def test_solve_simple_linear_eq() -> None:
 def test_solve_linear_system_2x2() -> None:
     """
     Test para evaluar la función de la resolución
-    de sistemas de dos ecuaciones de dos incógnitas"""
+    de sistemas de dos ecuaciones de dos incógnitas
+    """
+
     # Primera prueba
     result_scd: dict = solve_linear_system_2x2(1, 1, 2, 1, -1, 0)
 
@@ -57,6 +60,7 @@ def run_test() -> None:
     """
     Función que encapsula las pruebas de test
     """
+    
     test_determinant()
     test_solve_simple_linear_eq()
     test_solve_linear_system_2x2()

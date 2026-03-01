@@ -42,8 +42,6 @@ def display_menu() -> None:
     print('4. Salir')
     print()
 
-
-
 def display_is_linear_equation() -> None:
     """
     Interacción con el programa principal y la ejecución de la

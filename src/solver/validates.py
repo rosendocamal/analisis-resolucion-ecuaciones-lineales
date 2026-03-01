@@ -15,6 +15,7 @@ def validate_num_input(msg: str) -> float:
     Excepciones:
     ValueError: Si el dato no es un número.
     """
+
     while True:
         try:
             num: float = float(input(msg).strip())
@@ -36,6 +37,7 @@ def validate_option() -> int:
     Excepciones:
     ValueError: Si el dato ingresado no es un número.
     """
+    
     msg: str = 'Error: Opción inválida. Por favor, introduzca un número del 1 al 4.'
     while True:
         try:
